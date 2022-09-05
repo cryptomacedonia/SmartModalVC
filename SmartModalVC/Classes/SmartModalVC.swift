@@ -122,7 +122,7 @@ extension UIViewController {
 }
 
 extension UIViewController {
-    func configureChildViewControllerForDataReturningVC(childController: UIViewController, onView: UIView?) {
+  public  func configureChildViewControllerForDataReturningVC(childController: UIViewController, onView: UIView?) {
         var holderView = self.view
         if let onView = onView {
             holderView = onView
