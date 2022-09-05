@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SmartModalVC_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YB8-Db-ovN">
+                                <rect key="frame" x="60" y="483" width="255" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="qdP-4K-ysb"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="show options that return"/>
+                                <connections>
+                                    <action selector="showSmartModalVC:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="e0z-kd-0cK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="YB8-Db-ovN" secondAttribute="bottom" constant="150" id="1BW-aS-8Nb"/>
+                            <constraint firstItem="YB8-Db-ovN" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="8Sz-Dj-1dW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.600000000000001" y="115.59220389805098"/>
+        </scene>
+        <!--ModalVC Example-->
+        <scene sceneID="bMV-PA-wNf">
+            <objects>
+                <viewController storyboardIdentifier="ModalVCExample" id="ZcC-Mo-YiT" customClass="ModalVCExample" customModule="SmartModalVC_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tQU-vd-qfa"/>
+                        <viewControllerLayoutGuide type="bottom" id="FTd-vW-YY5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="213-bC-FV3">
+                        <rect key="frame" x="0.0" y="0.0" width="380" height="331"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ftM-1z-kJD">
+                                <rect key="frame" x="10" y="10" width="360" height="311"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OY5-RV-fzT">
+                                        <rect key="frame" x="80" y="20" width="200" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Tcq-Mz-MNj"/>
+                                            <constraint firstAttribute="width" constant="200" id="nsU-z7-9Yd"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="option 1"/>
+                                        <connections>
+                                            <action selector="option1Action:" destination="ZcC-Mo-YiT" eventType="touchUpInside" id="00W-rM-4MM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKA-XU-f0C">
+                                        <rect key="frame" x="80" y="138.5" width="200" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Da9-wo-XUa"/>
+                                            <constraint firstAttribute="height" constant="34" id="S1O-dL-ffT"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="option 2"/>
+                                        <connections>
+                                            <action selector="option2action:" destination="ZcC-Mo-YiT" eventType="touchUpInside" id="bTE-3z-YPQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqo-Xi-5rB">
+                                        <rect key="frame" x="80" y="257" width="200" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="3rT-eQ-upq"/>
+                                            <constraint firstAttribute="width" constant="200" id="gNN-uL-kuF"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="option 3"/>
+                                        <connections>
+                                            <action selector="option3Action:" destination="ZcC-Mo-YiT" eventType="touchUpInside" id="z1W-4O-Of1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="20" leading="20" bottom="20" trailing="20"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FTd-vW-YY5" firstAttribute="top" secondItem="ftM-1z-kJD" secondAttribute="bottom" constant="10" id="GVD-Fp-p80"/>
+                            <constraint firstAttribute="trailing" secondItem="ftM-1z-kJD" secondAttribute="trailing" constant="10" id="QLd-Qq-A5L"/>
+                            <constraint firstItem="ftM-1z-kJD" firstAttribute="top" secondItem="tQU-vd-qfa" secondAttribute="bottom" constant="10" id="bO6-OU-Y1A"/>
+                            <constraint firstItem="ftM-1z-kJD" firstAttribute="centerX" secondItem="213-bC-FV3" secondAttribute="centerX" id="bmo-FH-Brj"/>
+                            <constraint firstItem="ftM-1z-kJD" firstAttribute="centerY" secondItem="213-bC-FV3" secondAttribute="centerY" id="eQ9-ct-Btx"/>
+                            <constraint firstItem="ftM-1z-kJD" firstAttribute="leading" secondItem="213-bC-FV3" secondAttribute="leading" constant="10" id="iKo-cL-WGs"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="380" height="331"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ki-Y2-kFn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="-36.431784107946029"/>
+        </scene>
+    </scenes>
+</document>
