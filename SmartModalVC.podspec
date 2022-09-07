@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartModalVC'
-  s.version          = '0.1.1'
+  s.version          = '0.0.1'
   s.summary          = 'Allows to quickly show intelligent modal views'
   s.swift_version = '5.0'
 # This description is used to generate tags and improve search results.
