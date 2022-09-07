@@ -40,16 +40,15 @@ extension UIViewController {
         }
         
     }
-    public    func showDataReturningVC(optionsVC:VCThatReturnsData , width:Int, height:Int  , originatingView:UIView?,completion:  ((Any)->())? ) throws {
+    
+    public func showSmartModalVC(optionsVC:VCThatReturnsData , width:Int, height:Int  , originatingView:UIView?,completion:  ((Any)->())? ) throws {
         
-        
-     
-        
-      
         if  UIViewController.dataReturningVCVisible {
+            
             hideSmartVC()
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                try!  self.showDataReturningVC(optionsVC: optionsVC, width: width, height:height,originatingView: originatingView, completion: completion)
+                try!  self.showSmartModalVC(optionsVC: optionsVC, width: width, height:height,originatingView: originatingView, completion: completion)
             }
             return
         }
@@ -122,7 +121,7 @@ extension UIViewController {
 }
 
 extension UIViewController {
-  public  func configureChildViewControllerForDataReturningVC(childController: UIViewController, onView: UIView?) {
+    func configureChildViewControllerForDataReturningVC(childController: UIViewController, onView: UIView?) {
         var holderView = self.view
         if let onView = onView {
             holderView = onView

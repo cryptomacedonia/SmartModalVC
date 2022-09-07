@@ -47,7 +47,7 @@
 		A971596F35802EBFF5428308 /* Pods-SmartModalVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartModalVC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SmartModalVC_Example/Pods-SmartModalVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEED3B3D9677ADA6F5B86D17 /* Pods_SmartModalVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartModalVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA052A328C6649300F026B7 /* ModalVCExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalVCExample.swift; sourceTree = "<group>"; };
-		E2C910567ED64CD3EDCA9C0F /* SmartModalVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SmartModalVC.podspec; path = ../SmartModalVC.podspec; sourceTree = "<group>"; };
+		E2C910567ED64CD3EDCA9C0F /* SmartModalVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SmartModalVC.podspec; path = ../SmartModalVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F60AB0FC15210EB499195602 /* Pods-SmartModalVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartModalVC_Example.release.xcconfig"; path = "Target Support Files/Pods-SmartModalVC_Example/Pods-SmartModalVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -449,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -495,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -14,8 +14,8 @@
             filePath = "SmartModalVC/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "showSmartModalVC(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,9 +30,137 @@
             filePath = "SmartModalVC/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "showSmartModalVC(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0E20EF3-8EC1-4BA9-AB5C-D54094C558DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomOptions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "showWithOptions(optionsVC:headerLabel:options:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0E20EF3-8EC1-4BA9-AB5C-D54094C558DF - 44cb67b2f64ded7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.showWithOptions(optionsVC: Swift.Optional&lt;SmartModalVC.OptionsCompatibleVC&gt;, headerLabel: Swift.String, options: Swift.Array&lt;SmartModalVC.BottomSheetOptionsStruct&gt;) -&gt; ()"
+                  moduleName = "SmartModalVC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igorjovcevski/SmartVC/SmartModalVC/SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomOptions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220"
+                  offsetFromSymbolStart = "2744">
+               </Location>
+               <Location
+                  uuid = "B0E20EF3-8EC1-4BA9-AB5C-D54094C558DF - 44cb67b2f64ded7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.showWithOptions(optionsVC: Swift.Optional&lt;SmartModalVC.OptionsCompatibleVC&gt;, headerLabel: Swift.String, options: Swift.Array&lt;SmartModalVC.BottomSheetOptionsStruct&gt;) -&gt; ()"
+                  moduleName = "SmartModalVC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igorjovcevski/SmartVC/SmartModalVC/SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomOptions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220"
+                  offsetFromSymbolStart = "2824">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F6C708C-E6F3-4848-BF8D-FFA5D0C20108"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomOptions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "showWithOptions(optionsVC:headerLabel:options:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F6C708C-E6F3-4848-BF8D-FFA5D0C20108 - 44cb67b2f64dedd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.showWithOptions(optionsVC: Swift.Optional&lt;SmartModalVC.OptionsCompatibleVC&gt;, headerLabel: Swift.String, options: Swift.Array&lt;SmartModalVC.BottomSheetOptionsStruct&gt;) -&gt; ()"
+                  moduleName = "SmartModalVC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igorjovcevski/SmartVC/SmartModalVC/SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomOptions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "2788">
+               </Location>
+               <Location
+                  uuid = "5F6C708C-E6F3-4848-BF8D-FFA5D0C20108 - 44cb67b2f64dedd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.showWithOptions(optionsVC: Swift.Optional&lt;SmartModalVC.OptionsCompatibleVC&gt;, headerLabel: Swift.String, options: Swift.Array&lt;SmartModalVC.BottomSheetOptionsStruct&gt;) -&gt; ()"
+                  moduleName = "SmartModalVC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igorjovcevski/SmartVC/SmartModalVC/SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomOptions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "2868">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A61591E-4E68-41E6-8F86-2657F352DDD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomSheetOptionsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B1EE595-24A0-4326-BACA-A9CFDD67D6A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SmartModalVC/Classes/IgorBottomMenuOptions/IgorBottomSheetOptionsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
